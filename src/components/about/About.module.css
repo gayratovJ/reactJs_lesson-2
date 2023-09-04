@@ -1,0 +1,48 @@
+.row {
+  display: flex;
+}
+
+p.text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  width: 552px;
+
+}
+
+.col-6 {
+  width: 552px !important;
+}
+
+main section h1 {
+  color: #2C2D2E;
+  text-align: center;
+  font-feature-settings: 'clig'off, 'liga'off;
+
+  /* H1 */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  /* 125% */
+  margin-bottom: 32px;
+
+}
+
+main section h1 span {
+  color: #EF7C00;
+  font-feature-settings: 'clig'off, 'liga'off;
+
+  /* H1 */
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+main{
+  margin-bottom: 106px;
+}

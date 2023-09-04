@@ -1,0 +1,108 @@
+header .main-png {
+  background: url(../../assets/bg1\ 1.jpg);
+  width: 100%;
+  padding-top: 240px;
+  height: 527px;
+}
+
+nav {
+  background: #FFF;
+  position: fixed;
+  z-index: 1111;
+  order: 1;
+  width: 100%;
+  /* depth2 */
+  box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+  padding: 12px 0px 13px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .container ul {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+ul li {
+  padding-right: 16px;
+  padding-left: 16px;
+  border-right: 1px solid #00103D1F;
+}
+
+ul li a {
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul li a:hover {
+  color: #EF7C00;
+}
+
+.mode {
+  align-self: center;
+}
+
+.mode i.fa:nth-child(1) {
+  color: #EF7C00;
+  width: 20px;
+  height: 20px;
+  border-right: 1px solid black;
+  padding-right: 16px;
+}
+
+.mode i.fa:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  padding-left: 8px;
+}
+
+i.fa {
+  cursor: pointer;
+}
+
+.active {
+  color: #EF7C00;
+}
+
+.main-png .col-6 {
+  max-width: 582px;
+}
+
+.main-png .container .col-6 p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  margin-bottom: 16px;
+}
+
+.main-png .container .col-6 h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: black;
+  margin-bottom: 16px;
+}
+
+.main-png .container .col-6 p.text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+}
+
+.main-png .container .col-6 button {
+  border-radius: 4px;
+  background: #EF7C00;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+}
